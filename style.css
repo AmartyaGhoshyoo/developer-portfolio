@@ -5,12 +5,11 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .yoo{
     color: orange;
-}
-section{
-    display: flex;
-    margin-bottom: 150px;
 }
 .really{
     width: 50%;
@@ -30,9 +29,52 @@ section{
 .as{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 150px;
 }
 .Dream-Big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    display: flex;
+    margin-bottom: 150px;
+}
+.Experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.asss{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.what{
+    width: 70%;
+    padding-left: 5%;
+
+}
+.fao{
+    padding-left: 5%;
+}
+.box-shadow{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(33, 49, 1);
+}
+#seriously{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#LOL{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
